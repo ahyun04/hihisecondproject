@@ -28,7 +28,7 @@ public class DialogSystem : MonoBehaviour
 
     public int currentDialogIndex = -1;                 //현재 대사 순번
     public int currentSpeakerIndex = 0;                 //현재 말을 하는 화자의 Speakers 배열 순번
-    public float typingSpeed = 0.3f;                    //텍스트 타이핑 효과의 재생속도
+    public float typingSpeed = 0.1f;                    //텍스트 타이핑 효과의 재생속도
     public bool isTypingEffect = false;                 //텍스트 타이핑 효과가 재생중인지 판단.
 
     public GameObject select_001;
@@ -74,7 +74,7 @@ public class DialogSystem : MonoBehaviour
 
     private void Awake()
     {
-        SetAllCloseOFF();
+        SetAllClose();
         SetButtonEvent();
         if (dialogsDB)
         {
@@ -226,22 +226,8 @@ public class DialogSystem : MonoBehaviour
 
         if(dialogs[currentDialogIndex].characterPath.CompareTo("None") != 0) //None이 아닐경우 DB에 넣어놓은 경로의 캐릭터 이미지를 가져온다.
         {
-            speakers[currentSpeakerIndex].imgCharacter.gameObject.SetActive(true);
             speakers[currentSpeakerIndex].imgCharacter.sprite =
                 Resources.Load<Sprite>(dialogs[currentDialogIndex].characterPath);
-
-            speakers[currentSpeakerIndex].imgCharacter.SetNativeSize();
-            // 이미지의 세로 크기가 1080보다 큰지 확인합니다.
-            if (speakers[currentSpeakerIndex].imgCharacter.rectTransform.rect.height > 1080)
-            {
-                // 이미지의 스케일을 조정하여 세로 크기를 980으로 유지합니다.
-                float scaleRatio = 980f / speakers[currentSpeakerIndex].imgCharacter.rectTransform.rect.height;
-                speakers[currentSpeakerIndex].imgCharacter.rectTransform.localScale = new Vector3(scaleRatio, scaleRatio, 1f);
-            }
-        }
-        else
-        {
-            speakers[currentSpeakerIndex].imgCharacter.gameObject.SetActive(false);
         }
 
         if (dialogs[currentDialogIndex].backGroundPath.CompareTo("None") != 0) //None이 아닐경우 DB에 넣어놓은 경로의 배경 이미지를 가져온다
