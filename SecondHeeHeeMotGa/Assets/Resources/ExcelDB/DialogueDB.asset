@@ -518,7 +518,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: 49
       selectIndex: -100
-      nextScene: None
+      nextScene: Merge_Test
     - index: 0
       speakerUIindex: 0
       name: 
