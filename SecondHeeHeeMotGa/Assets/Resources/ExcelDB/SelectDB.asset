@@ -16,11 +16,11 @@ MonoBehaviour:
   - name: selectData
     list:
     - index: 0
-      selectAmount: 2
-      selectMain: "\uC120\uD0DD\uC9C0\uB97C \uACE0\uB974\uC138\uC694"
-      select_01: "\uCC98\uC74C\uC73C\uB85C \uB3CC\uC544\uAC00\uC694!"
-      select_02: "\uD0C8\uCD9C\uD574\uC694!"
-      select_03: "\uC120\uD0DD\uC9C03"
-      nextindex_01: 0
-      nextindex_02: 8
-      nextindex_03: 4
+      selectAmount: 3
+      selectMain: "\"\uC5B4\uB5A4 \uD0C0\uC785\uC774 \uC88B\uC544?\""
+      select_01: "\"\uB4EC\uC9C1\uD55C \uC5F0\uC0C1\""
+      select_02: "\"\uADC0\uC5EC\uC6B4 \uC18C\uAFC9\uCE5C\uAD6C\""
+      select_03: "\"\uCE24\uB370\uB808 \uC5F0\uD558\""
+      nextindex_01: 62
+      nextindex_02: 65
+      nextindex_03: 68

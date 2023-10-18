@@ -176,7 +176,7 @@ MonoBehaviour:
       name: 
       dialogue: "(\uC2AC\uCA4D.. \uB208 \uB5A0\uBCFC\uAE4C..?)"
       characterPath: None
-      BackGroundPath: None
+      BackGroundPath: BackGround/Room2blur
       tweenType: 0
       nextindex: 16
       selectIndex: -100
@@ -490,8 +490,8 @@ MonoBehaviour:
     - index: 46
       speakerUIindex: 0
       name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
-      dialogue: "\"\uADF8 '\uD37C\uC990'\uC744 \uD480\uC5B4 \uAC08 \uC218\uB85D \uD2B9\uBCC4\uD55C
-        \uACBD\uD5D8\uC744 \uD558\uAC8C \uB420\uAC70\uC57C\""
+      dialogue: "\"\uADF8 '\uD37C\uC990'\uC744 \uD480\uC5B4 \uAC08\uC218\uB85D \uD2B9\uBCC4\uD55C
+        \uACBD\uD5D8\uC744 \uD558\uAC8C \uB420 \uAC70\uC57C\""
       characterPath: Character/103
       BackGroundPath: BackGround/Gray
       tweenType: 0
@@ -519,33 +519,262 @@ MonoBehaviour:
       nextindex: 49
       selectIndex: -100
       nextScene: Merge_Test
-    - index: 0
+    - index: 49
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uC798\uD558\uB124!\""
+      characterPath: Character/104
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 50
+      selectIndex: -100
+      nextScene: None
+    - index: 50
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uADF8\uB7FC \uB2E4\uB978 \uC0AC\uB78C\uB4E4\uACFC\uC758 '\uD37C\uC990'
+        \uB610\uD55C \uC798 \uD480\uC5B4 \uB098\uAC08 \uC218 \uC788\uC744 \uAC70\uC57C\""
+      characterPath: Character/104
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 51
+      selectIndex: -100
+      nextScene: None
+    - index: 51
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uC5B4\uB5A4 \uC0AC\uB78C\uC744 \uB9CC\uB0A0\uC9C0 \uC0DD\uAC01\uC740
+        \uD574\uBD24\uC5B4?\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 52
+      selectIndex: -100
+      nextScene: None
+    - index: 52
       speakerUIindex: 0
       name: 
-      dialogue: 
-      characterPath: 
-      BackGroundPath: 
+      dialogue: "\"\uAE00\uC384.. \""
+      characterPath: None
+      BackGroundPath: BackGround/Gray
       tweenType: 0
-      nextindex: 0
-      selectIndex: 0
-      nextScene: 
-    - index: 0
+      nextindex: 53
+      selectIndex: -100
+      nextScene: None
+    - index: 53
       speakerUIindex: 0
       name: 
-      dialogue: 
-      characterPath: 
-      BackGroundPath: 
+      dialogue: "\"\uC544\uC9C1\uAE4C\uC9C0\uB3C4 \uB204\uAD74 \uB9CC\uB098\uACE0
+        \uC2F6\uB2E4\uB294 \uC0DD\uAC01\uC740 \uC548 \uB4DC\uB294 \uAC78\""
+      characterPath: None
+      BackGroundPath: BackGround/Gray
       tweenType: 0
-      nextindex: 0
-      selectIndex: 0
-      nextScene: 
-    - index: 0
+      nextindex: 54
+      selectIndex: -100
+      nextScene: None
+    - index: 54
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uADF8\uB798\uB3C4 \uC0B4\uBA74\uC11C \uC5F0\uC560\uB294 \uD574\uBCFC
+        \uAC70 \uC544\uB2C8\uC57C?\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 55
+      selectIndex: -100
+      nextScene: None
+    - index: 55
       speakerUIindex: 0
       name: 
-      dialogue: 
-      characterPath: 
-      BackGroundPath: 
+      dialogue: "\"\uC73C\uC751..?\""
+      characterPath: None
+      BackGroundPath: BackGround/Gray
       tweenType: 0
-      nextindex: 0
+      nextindex: 56
+      selectIndex: -100
+      nextScene: None
+    - index: 56
+      speakerUIindex: 0
+      name: 
+      dialogue: "\"\uB0B4\uAC00 \uADF8\uB7F4 \uC218 \uC788\uC744 \uAE4C\""
+      characterPath: None
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 57
+      selectIndex: -100
+      nextScene: None
+    - index: 57
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uB2F9\uC5F0\uD788 \uD560 \uC218 \uC788\uC9C0!!\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 58
+      selectIndex: -100
+      nextScene: None
+    - index: 58
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uB0B4\uAC00 \uB3C4\uC640\uC900\uB2E4\uACE0 \uD588\uC796\uC544\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 59
+      selectIndex: -100
+      nextScene: None
+    - index: 59
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uB9CC\uC57D\uC5D0 \uAC8C\uC784 \uC54C\uC544?\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 60
+      selectIndex: -100
+      nextScene: None
+    - index: 60
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uB9CC\uC57D\uC5D0 \u2026\""
+      characterPath: Character/103
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 61
+      selectIndex: -100
+      nextScene: None
+    - index: 61
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uC138 \uBA85\uC758 \uB0A8\uC790\uB4E4 \uC911\uC5D0 \uD55C \uBA85\uC744
+        \uACE8\uB77C\uC57C \uD55C\uB2E4\uBA74\""
+      characterPath: Character/103
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: -100
       selectIndex: 0
-      nextScene: 
+      nextScene: None
+    - index: 62
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uC624~! \uC5F0\uC0C1\uC774 \uCDE8\uD5A5\uC774\uAD6C\uB098?\""
+      characterPath: Character/104
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 63
+      selectIndex: -100
+      nextScene: None
+    - index: 63
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uB4E0\uB4E0\uD55C \uC5F0\uC0C1 \uC88B\uC9C0..\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 64
+      selectIndex: -100
+      nextScene: None
+    - index: 64
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uADF8 \uB204\uAD6C\uBCF4\uB2E4 \uB108\uB97C \uC0DD\uAC01\uD558\uACE0
+        \uC788\uC744 \uAC70\uC57C\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 71
+      selectIndex: -100
+      nextScene: None
+    - index: 65
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uC624\uB7AB\uB3D9\uC548 \uD568\uAED8\uD574\uC628 \uCE5C\uAD6C!\""
+      characterPath: Character/104
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 66
+      selectIndex: -100
+      nextScene: None
+    - index: 66
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uC88B\uC9C0~\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 67
+      selectIndex: -100
+      nextScene: None
+    - index: 67
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uADF8 \uB204\uAD6C\uBCF4\uB2E4 \uB108\uB97C \uAC00\uC7A5 \uC798
+        \uC54C\uAC70\uC57C\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 71
+      selectIndex: -100
+      nextScene: None
+    - index: 68
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uC5F0\uD558\uAC00 \uCDE8\uD5A5\uC774\uC57C?\""
+      characterPath: Character/104
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 69
+      selectIndex: -100
+      nextScene: None
+    - index: 69
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uAC89\uC73C\uB85C\uB294 \uCE24\uCE24\uAC70\uB824\uB3C4\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 70
+      selectIndex: -100
+      nextScene: None
+    - index: 70
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uADF8 \uB204\uAD6C\uBCF4\uB2E4 \uB108\uB97C \uCC59\uACA8\uC904
+        \uAC70\uC57C\""
+      characterPath: Character/101
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 71
+      selectIndex: -100
+      nextScene: None
+    - index: 71
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uC624\uB298 \uB098\uC640 \uD568\uAED8\uD55C \uC2DC\uAC04 \uC78A\uC9C0\uB9D0\uACE0\""
+      characterPath: Character/103
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 72
+      selectIndex: -100
+      nextScene: None
+    - index: 72
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uB098\uB294 \uC5B8\uC81C\uB098 \uB108\uC758 \uB9C8\uC74C\uC18D\uC5D0\uC11C
+        \uC0B4\uC544\uAC00\uACE0 \uC788\uC5B4\""
+      characterPath: Character/103
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: 73
+      selectIndex: -100
+      nextScene: None
+    - index: 73
+      speakerUIindex: 0
+      name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
+      dialogue: "\"\uD56D\uC0C1 \uC751\uC6D0\uD560\uAC8C\""
+      characterPath: Character/104
+      BackGroundPath: BackGround/Gray
+      tweenType: 0
+      nextindex: -100
+      selectIndex: -100
+      nextScene: None

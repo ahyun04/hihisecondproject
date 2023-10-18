@@ -44,7 +44,7 @@ public class MergeController : MonoBehaviour
         {
             PlaceRandomItem();
         }
-        if()
+        //if()
     }
 
     void SendRayCast()              //마우스 클릭 시 RAY 발사
