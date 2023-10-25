@@ -28,7 +28,7 @@ MonoBehaviour:
     - index: 1
       speakerUIindex: 0
       name: 
-      dialogue: "\"\uB538~ \uC790\uD1F4 \uC2E0\uCCAD\uC740 \uD588\uB2C8~\""
+      dialogue: "'\uB538~ \uC790\uD1F4 \uC2E0\uCCAD\uC740 \uD588\uB2C8~'"
       characterPath: None
       BackGroundPath: BackGround/Room1
       tweenType: 0
@@ -513,7 +513,7 @@ MonoBehaviour:
       speakerUIindex: 0
       name: "\uBC0D\uBC0D\uB514 \uC694\uC815"
       dialogue: "\"\uB098\uC640\uC758 '\uD37C\uC990'\uC744 \uBA3C\uC800 \uD480\uC5B4\uBCFC\uAE4C\""
-      characterPath: Character103
+      characterPath: Character/103
       BackGroundPath: BackGround/Gray
       tweenType: 0
       nextindex: 49
