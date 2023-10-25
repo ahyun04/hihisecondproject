@@ -28,7 +28,7 @@ public class DialogSystem : MonoBehaviour
 
     public int currentDialogIndex = -1;                 //현재 대사 순번
     public int currentSpeakerIndex = 0;                 //현재 말을 하는 화자의 Speakers 배열 순번
-    public float typingSpeed = 0.1f;                    //텍스트 타이핑 효과의 재생속도
+    public float typingSpeed = 0.3f;                    //텍스트 타이핑 효과의 재생속도
     public bool isTypingEffect = false;                 //텍스트 타이핑 효과가 재생중인지 판단.
 
     public GameObject select_001;
@@ -69,12 +69,12 @@ public class DialogSystem : MonoBehaviour
         if (type == 2) SetNextDialog(selectData[currentSelectIndex].nextindex_02);
         if (type == 3) SetNextDialog(selectData[currentSelectIndex].nextindex_03);
 
-         dialogstate = DIALOGSTATE.DIALONGING;
+        dialogstate = DIALOGSTATE.DIALONGING;
     }
 
     private void Awake()
     {
-        SetAllClose();
+        SetAllCloseOFF();
         SetButtonEvent();
         if (dialogsDB)
         {
@@ -119,7 +119,7 @@ public class DialogSystem : MonoBehaviour
     }
 
     //함수를 통해 UI가 보여지거나 안보여지게 설정
-    private void SetActiveObjects(SpeakerUI speaker, bool visible)  
+    private void SetActiveObjects(SpeakerUI speaker, bool visible)
     {
         speaker.imageDialog.gameObject.SetActive(visible);
         speaker.textName.gameObject.SetActive(visible);
@@ -128,7 +128,7 @@ public class DialogSystem : MonoBehaviour
         speaker.objectArrow.SetActive(false);
 
         Color color = speaker.imgCharacter.color;
-        if(visible)
+        if (visible)
         {
             color.a = 1;
         }
@@ -184,7 +184,7 @@ public class DialogSystem : MonoBehaviour
         SetAllClose();
         currentDialogIndex = currentIndex;          //다음 대사를 진행하도록
         currentSpeakerIndex = dialogs[currentDialogIndex].speakerUIindex;       //현재 화자 순번 설정
-        if(currentSpeakerIndex < 0)
+        if (currentSpeakerIndex < 0)
         {
             SetAllCloseOFF();
         }
@@ -194,7 +194,7 @@ public class DialogSystem : MonoBehaviour
             speakers[currentSpeakerIndex].textName.text = dialogs[currentDialogIndex].name; //현재 화자의 이름 텍스트 설정
             StartCoroutine("OnTypingText");
         }
-       
+
     }
 
     private void SetNextSelect(int currentIndex)
@@ -216,7 +216,7 @@ public class DialogSystem : MonoBehaviour
             select_002_Button_01_Text.text = selectData[currentIndex].select_01;
             select_002_Button_02_Text.text = selectData[currentIndex].select_02;
             select_002_Button_03_Text.text = selectData[currentIndex].select_03;
-        }       
+        }
     }
 
     private IEnumerator OnTypingText()
@@ -224,10 +224,24 @@ public class DialogSystem : MonoBehaviour
         int index = 0;
         isTypingEffect = true;
 
-        if(dialogs[currentDialogIndex].characterPath.CompareTo("None") != 0) //None이 아닐경우 DB에 넣어놓은 경로의 캐릭터 이미지를 가져온다.
+        if (dialogs[currentDialogIndex].characterPath.CompareTo("None") != 0) //None이 아닐경우 DB에 넣어놓은 경로의 캐릭터 이미지를 가져온다.
         {
+            speakers[currentSpeakerIndex].imgCharacter.gameObject.SetActive(true);
             speakers[currentSpeakerIndex].imgCharacter.sprite =
                 Resources.Load<Sprite>(dialogs[currentDialogIndex].characterPath);
+
+            speakers[currentSpeakerIndex].imgCharacter.SetNativeSize();
+            // 이미지의 세로 크기가 1080보다 큰지 확인합니다.
+            if (speakers[currentSpeakerIndex].imgCharacter.rectTransform.rect.height > 1080)
+            {
+                // 이미지의 스케일을 조정하여 세로 크기를 980으로 유지합니다.
+                float scaleRatio = 980f / speakers[currentSpeakerIndex].imgCharacter.rectTransform.rect.height;
+                speakers[currentSpeakerIndex].imgCharacter.rectTransform.localScale = new Vector3(scaleRatio, scaleRatio, 1f);
+            }
+        }
+        else
+        {
+            speakers[currentSpeakerIndex].imgCharacter.gameObject.SetActive(false);
         }
 
         if (dialogs[currentDialogIndex].backGroundPath.CompareTo("None") != 0) //None이 아닐경우 DB에 넣어놓은 경로의 배경 이미지를 가져온다
@@ -253,16 +267,16 @@ public class DialogSystem : MonoBehaviour
     public bool UpdateDialog(int currentIndex, bool InitType)
     {
         //대사 분기가 1회만 호출 
-        if(DialogInit == true && InitType == true)
+        if (DialogInit == true && InitType == true)
         {
             SetAllClose();
             SetNextDialog(currentIndex);
             DialogInit = false;
             dialogstate = DIALOGSTATE.DIALONGING;
         }
-        if(Input.GetMouseButtonDown(0) && dialogstate == DIALOGSTATE.DIALONGING)
+        if (Input.GetMouseButtonDown(0) && dialogstate == DIALOGSTATE.DIALONGING)
         {
-            if(isTypingEffect == true)
+            if (isTypingEffect == true)
             {
                 isTypingEffect = false;
                 StopCoroutine("OnTypingText");          //타이핑 효과를 중지하고 , 현재 대사 전체를 출력한다.
@@ -281,7 +295,7 @@ public class DialogSystem : MonoBehaviour
             if (dialogs[currentDialogIndex].selectIndex != -100)
             {
                 SetNextSelect(dialogs[currentDialogIndex].selectIndex);
-            }                       
+            }
             else if (dialogs[currentDialogIndex].nextScene.CompareTo("None") != 0)
             {
                 SceneManager.LoadScene(dialogs[currentDialogIndex].nextScene);
@@ -289,7 +303,7 @@ public class DialogSystem : MonoBehaviour
             else if (dialogs[currentDialogIndex].nextindex != -100)
             {
                 SetNextDialog(dialogs[currentDialogIndex].nextindex);
-            }           
+            }
             else
             {
                 SetAllClose();
@@ -331,7 +345,7 @@ public class DialogSystem : MonoBehaviour
     {
         public int index;                   //선택지 번호
         public int selectAmount;            //선택지 숫자
-       
+
         public string selectMain;         //선택 UI String
 
         public string select_01;

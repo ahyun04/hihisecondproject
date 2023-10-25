@@ -9,20 +9,20 @@ public class FirstMerge : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Time.timeScale = 0;
+        SceneManager.LoadScene("Dialogue2");
     }
 
     // Update is called once per frame
     void Update()
     {
         Debug.Log(endtimer);
-     if(Time.timeScale == 0)
-        {
-            endtimer += Time.unscaledDeltaTime;
-        }
-     if (endtimer >= 4.0f)
-        {
-            SceneManager.LoadScene("Dialogue2");
-        }
+     //if(Time.timeScale == 0)
+     //   {
+     //       endtimer += Time.unscaledDeltaTime;
+     //   }
+     //if (endtimer >= 4.0f)
+     //   {
+     //       SceneManager.LoadScene("Dialogue2");
+     //   }
     }
 }
