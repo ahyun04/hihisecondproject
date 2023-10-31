@@ -778,3 +778,33 @@ MonoBehaviour:
       nextindex: -100
       selectIndex: -100
       nextScene: None
+    - index: 0
+      speakerUIindex: 0
+      name: 
+      dialogue: "\"\uD5C9!!!\""
+      characterPath: 
+      BackGroundPath: 
+      tweenType: 0
+      nextindex: 0
+      selectIndex: 0
+      nextScene: 
+    - index: 0
+      speakerUIindex: 0
+      name: 
+      dialogue: "\"\uAFC8..\uC778\uAC00?\""
+      characterPath: 
+      BackGroundPath: 
+      tweenType: 0
+      nextindex: 0
+      selectIndex: 0
+      nextScene: 
+    - index: 0
+      speakerUIindex: 0
+      name: 
+      dialogue: "\"\uBB34\uC2A8 \uAFC8\uC774 \uC774\uB807\uAC8C \uC0DD\uC0DD\uD574..\""
+      characterPath: 
+      BackGroundPath: 
+      tweenType: 0
+      nextindex: 0
+      selectIndex: 0
+      nextScene: 
