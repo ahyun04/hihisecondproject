@@ -1167,20 +1167,20 @@ MonoBehaviour:
       characterPath: None
       BackGroundPath: BackGround/JhStart
       tweenType: 0
-      nextindex: 123
+      nextindex: 113
       selectIndex: -100
       nextScene: None
-    - index: 123
+    - index: 113
       speakerUIindex: 0
       name: 
       dialogue: "(\uBB54\uAC00 \uAE30\uBD84\uC774 \uC774\uC0C1\uD55C\uB370..)"
       characterPath: None
       BackGroundPath: BackGround/JhStart
       tweenType: 0
-      nextindex: 124
+      nextindex: 114
       selectIndex: -100
       nextScene: None
-    - index: 124
+    - index: 114
       speakerUIindex: 0
       name: 
       dialogue: "(\uC694\uC0C1\uD55C \uAFC8 \uB54C\uBB38\uC778\uAC00..)"
@@ -1189,7 +1189,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: -100
       selectIndex: -100
-      nextScene: None
+      nextScene: Main
     - index: 0
       speakerUIindex: 0
       name: 
