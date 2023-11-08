@@ -33,7 +33,7 @@ public class StartButton : MonoBehaviour
     }
     public void OnClickJiHwanGallery()
     {
-        SceneManager.LoadScene("JiHwanGallery");
+        SceneManager.LoadScene("JiHwanCG");
     }
     public void OnClickGalleryExit()
     {
