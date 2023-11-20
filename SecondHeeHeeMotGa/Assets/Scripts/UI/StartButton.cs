@@ -45,6 +45,6 @@ public class StartButton : MonoBehaviour
     }
     public void OnClickADialogueSkip()
     {
-        DialogueSkipContoll.GetComponent<DialogSystem>().currentDialogIndex = 47;
+        SceneManager.LoadScene("Merge_Test");
     }
 }
