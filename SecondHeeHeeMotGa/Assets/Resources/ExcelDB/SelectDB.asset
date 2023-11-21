@@ -24,3 +24,93 @@ MonoBehaviour:
       nextindex_01: 62
       nextindex_02: 65
       nextindex_03: 68
+    - index: 1
+      selectAmount: 3
+      selectMain: "(\uC5B4\uB514\uAC00\uC11C \uACFC\uC81C\uB97C \uD560\uAE4C?)"
+      select_01: "\"\uC9D1\uC5D0\uAC00\uC11C\""
+      select_02: "\"\uAC15\uC758\uC2E4\uC5D0 \uB0A8\uC544\uC11C\""
+      select_03: "\"\uADF8\uB0E5 \uBC25\uC774\uB098 \uBA39\uC73C\uB7EC \uAC00\uC790\""
+      nextindex_01: 120
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 2
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 3
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 4
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 5
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 6
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 7
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 8
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 9
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 10
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
