@@ -24,3 +24,188 @@ MonoBehaviour:
       nextindex_01: 62
       nextindex_02: 65
       nextindex_03: 68
+    - index: 1
+      selectAmount: 3
+      selectMain: "(\uC5B4\uB514\uAC00\uC11C \uACFC\uC81C\uB97C \uD560\uAE4C?)"
+      select_01: "\"\uAC15\uC758\uC2E4\uC5D0 \uB0A8\uC544\uC11C\""
+      select_02: "\"\uC9D1\uC5D0 \uAC00\uC11C\""
+      select_03: "\"\uADF8\uB0E5 \uBC25\uC774\uB098 \uBA39\uC73C\uB7EC \uAC00\uC790\""
+      nextindex_01: 120
+      nextindex_02: 178
+      nextindex_03: 217
+    - index: 2
+      selectAmount: 3
+      selectMain: "\"\uADF8\uB7FC \uC790\uD1F4\uB294 \uC5B8\uC81C\uCBE4 \uD560 \uC0DD\uAC01\uC774\uC57C?\""
+      select_01: "\"\uC544\uB9C8 \uC774\uBC88\uD559\uAE30\uB294 \uB4E3\uACE0 \uAC08\uAC70
+        \uAC19\uC544\uC694\""
+      select_02: "\"\uAE00\uC384\uC694..?\""
+      select_03: "\"\uC54C\uB824\uC8FC\uAE30\uB294 \uC880 \uADF8\uB798\uC11C\uC694
+        ..\u314E\u314E\""
+      nextindex_01: 137
+      nextindex_02: 139
+      nextindex_03: 140
+    - index: 3
+      selectAmount: 3
+      selectMain: "\"\uD504\uB791\uC2A4\uC5D0 \uAC00\uC11C \uC5B4\uB5A4 \uC77C\uC744
+        \uD558\uACE0 \uC2F6\uC740 \uAC70\uC57C?\""
+      select_01: "\"\uADF8\uB0E5.. \uC800 \uC7AC\uBC0C\uB294 \uC77C \uD558\uACE0\uC2F6\uC5B4\uC694\""
+      select_02: "\"\uB0A8\uC744 \uC990\uAC81\uAC8C \uD558\uB294 \uC77C\uC744 \uD558\uACE0\uC2F6\uC5B4\uC694\""
+      select_03: "\"\uBAA8\uB450\uB97C \uC990\uAC81\uAC8C \uD558\uB294 \uC77C\uC744
+        \uD558\uACE0\uC2F6\uC5B4\uC694\""
+      nextindex_01: 146
+      nextindex_02: 147
+      nextindex_03: 148
+    - index: 4
+      selectAmount: 3
+      selectMain: "\"\uB09C \uC5B4\uB5A4 \uC77C \uD560 \uAC70 \uAC19\uC544\uBCF4\uC5EC?\""
+      select_01: "\"\uD504\uB85C\uADF8\uB798\uBC0D\""
+      select_02: "\"\uC544\uD2B8\""
+      select_03: "\"\uAE30\uD68D\""
+      nextindex_01: 152
+      nextindex_02: 154
+      nextindex_03: 163
+    - index: 5
+      selectAmount: 3
+      selectMain: "\"\uADF8\uB7FC \uC5B8\uC81C \uD560\uAC74\uB370?\""
+      select_01: "\"\uC774\uBC88\uD559\uAE30\uB294 \uB4E3\uACE0 \uAC08\uAC70\uC57C\""
+      select_02: "\"\uAE00\uC384? \uC798 \uBAA8\uB974\uACA0\uB294\uB370\""
+      select_03: "\"\uC54C\uB824\uC8FC\uAE30 \uC880 \uADF8\uB807\uB2E4 \uBBF8\uC548\""
+      nextindex_01: 190
+      nextindex_02: 191
+      nextindex_03: 192
+    - index: 6
+      selectAmount: 3
+      selectMain: "\"\uAC00\uC11C \uC5B4\uB5A4 \uC77C \uD560\uAC70\uC57C?\""
+      select_01: "\"\uB0B4\uAC00 \uC990\uAC70\uC6B4 \uC77C\""
+      select_02: "\"\uB0A8\uC744 \uC990\uAC81\uAC8C \uD574\uC8FC\uB294 \uC77C\""
+      select_03: "\"\uBAA8\uB450\uAC00 \uC990\uAC70\uC6B4 \uC77C\""
+      nextindex_01: 199
+      nextindex_02: 201
+      nextindex_03: 203
+    - index: 7
+      selectAmount: 3
+      selectMain: "\"\uB09C \uBB34\uC2A8 \uC77C \uD560 \uAC70 \uAC19\uC740\uB370?\""
+      select_01: "\"\uD504\uB85C\uADF8\uB798\uBC0D\""
+      select_02: "\"\uC544\uD2B8\""
+      select_03: "\"\uAE30\uD68D\""
+      nextindex_01: 209
+      nextindex_02: 210
+      nextindex_03: 213
+    - index: 8
+      selectAmount: 3
+      selectMain: "\"\uC5B8\uC81C\uCBE4 \uC790\uD1F4 \uD558\uC2DC\uB294\uAC70\uC5D0\uC694?\""
+      select_01: "\"\uC774\uBC88\uD559\uAE30\uB294 \uB4E3\uACE0 \uAC08 \uAC70 \uAC19\uC544\""
+      select_02: "\"\uAE00\uC384, \uC544\uC9C1 \uC815\uD574\uC9C4\uAC8C \uC5C6\uC5B4\uC11C\""
+      select_03: "\"\uBBF8\uC548 \uC544\uC9C1 \uC54C\uB824\uC8FC\uAE30 \uC880 \uADF8\uB807\uB2E4\""
+      nextindex_01: 236
+      nextindex_02: 237
+      nextindex_03: 239
+    - index: 9
+      selectAmount: 3
+      selectMain: "\"\uAC70\uAE30 \uAC00\uC11C \uC5B4\uB5A4\uC77C \uD558\uC2DC\uB294
+        \uAC70\uC5D0\uC694?\""
+      select_01: "\"\uB0B4\uAC00 \uC990\uAC81\uACE0 \uC7AC\uBC0C\uB294 \uC77C\""
+      select_02: "\"\uB0A8\uC774 \uC990\uAC70\uC6B4 \uC77C\""
+      select_03: "\"\uBAA8\uB450\uB97C \uC990\uAC81\uAC8C \uD558\uB294 \uC77C\""
+      nextindex_01: 247
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 10
+      selectAmount: 3
+      selectMain: "\"\uC804 \uC5B4\uB5A4 \uAC70 \uD558\uB294 \uAC70 \uAC19\uC544\uC694?\""
+      select_01: "\"\uD504\uB85C\uADF8\uB798\uBC0D\""
+      select_02: "\"\uC544\uD2B8\""
+      select_03: "\"\uAE30\uD68D\""
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 11
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 12
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 13
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 14
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 15
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 16
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 17
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 18
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 19
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
+    - index: 20
+      selectAmount: 3
+      selectMain: 
+      select_01: 
+      select_02: 
+      select_03: 
+      nextindex_01: 0
+      nextindex_02: 0
+      nextindex_03: 0
