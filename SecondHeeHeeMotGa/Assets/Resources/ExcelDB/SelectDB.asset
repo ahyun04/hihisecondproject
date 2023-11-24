@@ -128,7 +128,7 @@ MonoBehaviour:
       select_03: "\"\uC0AC\uBB3C\uD568 \uC55E \uBCF5\uB3C4\""
       nextindex_01: 286
       nextindex_02: 326
-      nextindex_03: 0
+      nextindex_03: 371
     - index: 12
       selectAmount: 3
       selectMain: "\"\uBB50 \uCC3E\uACE0 \uC788\uC5B4?\""
@@ -158,31 +158,32 @@ MonoBehaviour:
       nextindex_03: 321
     - index: 15
       selectAmount: 3
-      selectMain: "\"\uB193\uACE0\uAC04 \uBB3C\uAC74 \uC788\uC5B4?\""
-      select_01: "\"\uD639\uC2DC \uC5EC\uAE30 \uC788\uB358 \uC885\uC774 \uBD24\uC5B4?\""
+      selectMain: "\"\uC5B4\uB5A4\uAC74\uB370? \uAC19\uC774 \uCC3E\uC544\uC904\uAC8C\""
+      select_01: "\"\uD639\uC2DC \uC5EC\uAE30 \uB5A8\uC5B4\uC9C4 \uC885\uC774 \uBD24\uC5B4?\""
       select_02: "\"\uB0B4\uAC00 \uC54C\uC544\uC11C \uCC3E\uC744\uAC8C \uC2E0\uACBD\uC4F0\uC9C0\uB9C8\""
       select_03: "(\uBB34\uC2DC)"
-      nextindex_01: 0
-      nextindex_02: 0
-      nextindex_03: 0
+      nextindex_01: 329
+      nextindex_02: 330
+      nextindex_03: 331
     - index: 16
       selectAmount: 3
       selectMain: "\"\uB108\uB294 \uB098 \uC5B4\uB5BB\uAC8C \uC0DD\uAC01\uD558\uB294\uB370?\""
       select_01: "\"\uC18C\uAFC9 \uCE5C\uAD6C\""
       select_02: "\"\uCE5C\uD55C \uCE5C\uAD6C\""
       select_03: "\"\uADF8\uB0E5 \uC544\uB294 \uCE5C\uAD6C\""
-      nextindex_01: 0
-      nextindex_02: 0
-      nextindex_03: 0
+      nextindex_01: 354
+      nextindex_02: 360
+      nextindex_03: 360
     - index: 17
       selectAmount: 3
       selectMain: "\"\uC624\uB298 \uC800\uB141\uC5D0 \uC2DC\uAC04 \uC788\uC5B4?\""
       select_01: "\"\uB2F9\uC5F0\uD558\uC9C0\""
       select_02: "\"\uC2DC\uAC04 \uBCF4\uACE0 \uB9D0\uD574\uC918\uB3C4 \uB420\uAE4C?\""
-      select_03: "(\uBB34\uC2DC)"
-      nextindex_01: 0
-      nextindex_02: 0
-      nextindex_03: 0
+      select_03: "\"\uC624\uB298\uC740 \uC880 \uBC14\uBE60\uC11C \uC548\uB420 \uAC70
+        \uAC19\uC544\""
+      nextindex_01: 365
+      nextindex_02: 366
+      nextindex_03: 367
     - index: 18
       selectAmount: 3
       selectMain: "\"\uBB50 \uCC3E\uACE0 \uC788\uC5B4\uC694?\""
@@ -190,27 +191,27 @@ MonoBehaviour:
         \uBD24\uC5B4?\""
       select_02: "\"\uC7A0\uC2DC\uB9CC \uB0B4\uAC00 \uCC3E\uC544\uBCFC\uAC8C\""
       select_03: "(\uBB34\uC2DC)"
-      nextindex_01: 0
-      nextindex_02: 0
-      nextindex_03: 0
+      nextindex_01: 374
+      nextindex_02: 376
+      nextindex_03: 377
     - index: 19
       selectAmount: 3
       selectMain: "\"\uC120\uBC30\uB294 \uC800 \uC5B4\uB5BB\uAC8C \uC0DD\uAC01\uD574\uC694?\""
       select_01: "\"\uCC59\uACA8\uC8FC\uACE0 \uC2F6\uC740 \uD6C4\uBC30\""
       select_02: "\"\uCC29\uD55C \uD6C4\uBC30\""
       select_03: "\"\uADF8\uB0E5 \uC544\uB294 \uD6C4\uBC30\""
-      nextindex_01: 0
-      nextindex_02: 0
-      nextindex_03: 0
+      nextindex_01: 386
+      nextindex_02: 388
+      nextindex_03: 388
     - index: 20
       selectAmount: 3
       selectMain: "\"\uC624\uB298 \uC800\uB141\uC5D0 \uC2DC\uAC04 \uC788\uC5B4\uC694?\""
       select_01: "\"\uBB3C\uB860\uC774\uC9C0\""
       select_02: "\"\uC2DC\uAC04\uC744 \uC880 \uBCF4\uACE0..\""
-      select_03: "(\uBB34\uC2DC)"
-      nextindex_01: 0
-      nextindex_02: 0
-      nextindex_03: 0
+      select_03: "\"\uBBF8\uC548 \uC624\uB298\uC740 \uC880 \uBC14\uC058\uB124?\""
+      nextindex_01: 395
+      nextindex_02: 396
+      nextindex_03: 397
     - index: 21
       selectAmount: 2
       selectMain: "\"\uB098\uB791 \uC55E\uC73C\uB85C\uB3C4 \uCB49 \uD568\uAF10 \uD558\uACA0\uB2E4\uACE0
