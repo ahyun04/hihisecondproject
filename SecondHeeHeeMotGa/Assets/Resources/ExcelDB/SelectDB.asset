@@ -30,7 +30,7 @@ MonoBehaviour:
       select_01: "\"\uAC15\uC758\uC2E4\uC5D0 \uB0A8\uC544\uC11C\""
       select_02: "\"\uC9D1\uC5D0 \uAC00\uC11C\""
       select_03: "\"\uADF8\uB0E5 \uBC25\uC774\uB098 \uBA39\uC73C\uB7EC \uAC00\uC790\""
-      nextindex_01: 120
+      nextindex_01: 455
       nextindex_02: 178
       nextindex_03: 217
     - index: 2
