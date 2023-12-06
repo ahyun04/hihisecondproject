@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MergeController : MonoBehaviour
 {
@@ -40,9 +41,20 @@ public class MergeController : MonoBehaviour
             SendRayCast();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))                                         //스페이스 키를 눌렀을 때 랜덤 아이템 배치
+        if (SceneManager.GetActiveScene().name == "Merge_Test")
         {
-            PlaceRandomItem();
+            if (Input.GetKeyDown(KeyCode.Space))                                         //스페이스 키를 눌렀을 때 랜덤 아이템 배치
+            {
+                PlaceRandomItem();
+            }
+        }
+
+        if (SceneManager.GetActiveScene().name == "Mmerge_1")       
+        {
+            if (Input.GetKeyDown(KeyCode.Space))                                         //스페이스 키를 눌렀을 때 랜덤 아이템 배치
+            {
+                M1PlaceRandomItem();
+            }
         }
         //if()
     }
@@ -51,7 +63,7 @@ public class MergeController : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);                //화면의 마우스 좌표를 통해서 월드 상의 레이케스팅
         RaycastHit hit;                                                             //hit 물리 선언
-
+        
         if (Physics.Raycast(ray, out hit))                                           //hit 된 것이 있을 경우
         {
             var slot = hit.transform.GetComponent<Slot>();                          //hit 된 slot Component 를 가져온다
@@ -139,6 +151,23 @@ public class MergeController : MonoBehaviour
             slot = GetSlotById(rand);                               //Rand 받은 index 값을 통해서 slot 객체를 가져온다.
         }
         slot.CreateItem(0);                                         //빈 슬롯을 발견하면 0번째 아이템을 생성
+    }
+    void M1PlaceRandomItem()                                          //랜덤한 슬롯에 아이템 배치
+    {
+        if (AllSlotsOccupied())
+        {
+            Debug.Log("슬롯이 다 차있음 => 생성 불가");
+            return;
+        }
+
+        var rand = UnityEngine.Random.Range(0, slots.Length);       //슬롯 갯수에 따라 랜덤 번호를 rand에 입력
+        var slot = GetSlotById(rand);                               //Rand 받은 index 값을 통해서 slot 객체를 가져온다
+        while (slot.state == Slot.SLOTSTATE.FULL)
+        {
+            rand = UnityEngine.Random.Range(0, slots.Length);       //슬롯 갯수에 따라서 랜덤 번호를 rand에 입력
+            slot = GetSlotById(rand);                               //Rand 받은 index 값을 통해서 slot 객체를 가져온다.
+        }
+        slot.CreateItem(3);                                         //빈 슬롯을 발견하면 0번째 아이템을 생성
     }
 
     bool AllSlotsOccupied()                                         //슬롯이 채워져 있는지 확인 하는 함수

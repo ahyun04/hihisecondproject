@@ -775,9 +775,9 @@ MonoBehaviour:
       characterPath: Character/104
       BackGroundPath: BackGround/Gray
       tweenType: 0
-      nextindex: 74
+      nextindex: -100
       selectIndex: -100
-      nextScene: None
+      nextScene: Dialogue3
     - index: 74
       speakerUIindex: 0
       name: 
@@ -940,7 +940,7 @@ MonoBehaviour:
       nextScene: None
     - index: 90
       speakerUIindex: 0
-      name: ___
+      name: 
       dialogue: "\"\uC120\uBC30\uB2D8 \uC548\uB155\uD558\uC138\uC694~!\""
       characterPath: Character/201
       BackGroundPath: BackGround/MhStart
@@ -1241,7 +1241,7 @@ MonoBehaviour:
       tweenType: 0
       nextindex: -100
       selectIndex: 1
-      nextScene: "\uC120\uD0DD\uC9C0\uB85C \uC774\uC5B4\uC9C0\uB294 \uC52C"
+      nextScene: None
     - index: 120
       speakerUIindex: 0
       name: 

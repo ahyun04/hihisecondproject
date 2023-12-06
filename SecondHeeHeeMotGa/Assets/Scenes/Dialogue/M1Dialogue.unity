@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSystem: {fileID: 251017554}
-  dialogIndex: 49
+  dialogIndex: 137
 --- !u!114 &251017554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -823,6 +823,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogueSkipContoll: {fileID: 251017552}
+  AcharacterImage: {fileID: 1048638315}
+  AdialogueText: {fileID: 1545440098}
+  AnameText: {fileID: 829084346}
 --- !u!114 &710605204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -866,7 +869,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 710605205}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 710605203}
+        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
+        m_MethodName: OnClick2DialogueSkip
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &710605205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1542,6 +1557,7 @@ GameObject:
   - component: {fileID: 1040740950}
   - component: {fileID: 1040740949}
   - component: {fileID: 1040740952}
+  - component: {fileID: 1040740953}
   m_Layer: 5
   m_Name: Button_03
   m_TagString: Untagged
@@ -1626,6 +1642,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: LikeAbilitySystem, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1040740950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1677,6 +1705,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   likeA10: {fileID: 2127328221}
+--- !u!114 &1040740953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040740947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f4aea68ed2a0046ac29f8db198dddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueSkipContoll: {fileID: 0}
+  AcharacterImage: {fileID: 0}
+  AdialogueText: {fileID: 0}
+  AnameText: {fileID: 0}
 --- !u!1 &1048638315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,6 +1972,7 @@ GameObject:
   - component: {fileID: 1292223282}
   - component: {fileID: 1292223281}
   - component: {fileID: 1292223284}
+  - component: {fileID: 1292223285}
   m_Layer: 5
   m_Name: Button_02
   m_TagString: Untagged
@@ -1999,19 +2044,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1292223282}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1040740952}
-        m_TargetAssemblyTypeName: LikeAbilitySystem, Assembly-CSharp
-        m_MethodName: OnButtonClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1292223282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2063,6 +2096,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   likeA10: {fileID: 2127328221}
+--- !u!114 &1292223285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292223279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f4aea68ed2a0046ac29f8db198dddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueSkipContoll: {fileID: 0}
+  AcharacterImage: {fileID: 0}
+  AdialogueText: {fileID: 0}
+  AnameText: {fileID: 0}
 --- !u!1 &1396164789
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,6 +2125,7 @@ GameObject:
   - component: {fileID: 1396164792}
   - component: {fileID: 1396164791}
   - component: {fileID: 1396164794}
+  - component: {fileID: 1396164795}
   m_Layer: 5
   m_Name: Button_01
   m_TagString: Untagged
@@ -2148,13 +2198,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1040740952}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: LikeAbilitySystem, Assembly-CSharp
-        m_MethodName: OnButtonClick
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2211,6 +2261,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   likeA10: {fileID: 2127328221}
+--- !u!114 &1396164795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396164789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42f4aea68ed2a0046ac29f8db198dddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DialogueSkipContoll: {fileID: 0}
+  AcharacterImage: {fileID: 0}
+  AdialogueText: {fileID: 0}
+  AnameText: {fileID: 0}
 --- !u!1 &1437537173
 GameObject:
   m_ObjectHideFlags: 0
