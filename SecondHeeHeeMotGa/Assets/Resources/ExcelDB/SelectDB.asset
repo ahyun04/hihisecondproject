@@ -212,12 +212,11 @@ MonoBehaviour:
       nextindex_01: 395
       nextindex_02: 396
       nextindex_03: 397
-    - index: 21
-      selectAmount: 2
-      selectMain: "\"\uB098\uB791 \uC55E\uC73C\uB85C\uB3C4 \uCB49 \uD568\uAF10 \uD558\uACA0\uB2E4\uACE0
-        \uB9D0\uD574\""
-      select_01: "\"\uC544\uB2C8\uC694, \uC2EB\uC5B4\uC694\""
-      select_02: "\"\uC54C\uACA0\uC5B4\uC694.. \uC77C\uB2E8 \uC9C4\uC815 \uD574\uBCF4\uC138\uC694\""
+    - index: 0
+      selectAmount: 0
+      selectMain: 
+      select_01: 
+      select_02: 
       select_03: 
       nextindex_01: 0
       nextindex_02: 0
